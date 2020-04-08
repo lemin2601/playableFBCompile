@@ -1,0 +1,1 @@
+npm --prefix ./tool/cocos-to-playable-ad run test
