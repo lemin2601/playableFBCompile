@@ -1,0 +1,22 @@
+{
+  "name": "build_playable_ads_fb",
+  "version": "0.0.1",
+  "description": "Config build playable facebook with once click.\nHướng dẫn build playable ads facebook chi với 1 click",
+  "author": "trunglm4",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/build_playable_ads_fb/open": {
+      "message": "build_playable_ads_fb:open-main"
+    },
+    "i18n:MAIN_MENU.package.title/build_playable_ads_fb/build": {
+      "message": "build_playable_ads_fb:build-main"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "Build Playable ads fb",
+    "width": 400,
+    "height": 500
+  }
+}

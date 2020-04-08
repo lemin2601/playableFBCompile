@@ -3,11 +3,13 @@
     "__type__": "cc.Prefab",
     "_name": "canvas",
     "_objFlags": 0,
-    "_rawFiles": null,
+    "_native": "",
     "data": {
       "__id__": 1
     },
-    "asyncLoadAssets": false
+    "optimizationPolicy": 1,
+    "asyncLoadAssets": false,
+    "readonly": false
   },
   {
     "__type__": "cc.Node",
@@ -34,15 +36,6 @@
       "height": 640
     },
     "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 479.9999999999999,
-      "y": 319.99999999999994
-    },
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
@@ -55,10 +48,35 @@
     "_components": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 4
       }
     ],
     "_prefab": {
       "__id__": 3
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        480,
+        320,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
     }
   },
   {
@@ -84,5 +102,31 @@
     },
     "asset": null,
     "fileId": "a6aa1W/pshGFZkMhhqxkZYP"
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0
   }
 ]

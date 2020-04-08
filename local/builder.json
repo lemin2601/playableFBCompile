@@ -15,5 +15,8 @@
   "sourceMaps": false,
   "template": "link",
   "useDebugKeystore": true,
-  "vsVersion": "auto"
+  "vsVersion": "auto",
+  "actualPlatform": "web-mobile",
+  "embedWebDebugger": false,
+  "buildScriptsOnly": false
 }
